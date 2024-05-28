@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class OrderScreen {
+public class OrderScreen extends Home {
     private static List<String> orderItems = new ArrayList<>();
     private static Scanner scanner= new Scanner(System.in);
 

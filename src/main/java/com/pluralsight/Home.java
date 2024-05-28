@@ -18,9 +18,9 @@ public class Home {
 
         switch (choice) {
             case 1 -> newOrder();
-            case 0 -> {
+            case 2-> {
                 System.out.println("Thank you for stopping by , have a great day");
-                System.exit(0); // to exit the application
+                System.exit(2); // to exit the application
             }
             default -> System.out.println("Invalid selection , please select a valid option ");
         }
