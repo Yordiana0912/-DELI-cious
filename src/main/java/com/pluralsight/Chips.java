@@ -3,7 +3,7 @@ package com.pluralsight;
 public class Chips {
     private String type;
 
-    public Chips(String type) {
+    public Chips() {
         this.type = type;
     }
 

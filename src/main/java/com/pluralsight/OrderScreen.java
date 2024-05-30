@@ -4,15 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class OrderScreen extends Home {
+public class OrderScreen extends Home  {
     private static List<String> orderItems = new ArrayList<>();
     private static Scanner scanner= new Scanner(System.in);
-
-    public static void main(String[] args) {
-        displayOrderScreen();
-
-    }
-    private static void displayOrderScreen() {
+     public OrderScreen(){
         while (true){
             System.out.println("-------------------------");
             System.out.println("Order Screen");
@@ -50,6 +45,8 @@ public class OrderScreen extends Home {
         }
 
     }
+    private static void displayOrderScreen() {
+    }
 
     private static void cancelOrder() {
     }
@@ -58,13 +55,16 @@ public class OrderScreen extends Home {
     }
 
     private static void addChips() {
+         new Chips();
     }
 
     private static void addDrink() {
+         new Drinks();
     }
 
     private static void addSandwich() {
-        
-    }
+        new AddSandwich();
+
+     }
 }
 

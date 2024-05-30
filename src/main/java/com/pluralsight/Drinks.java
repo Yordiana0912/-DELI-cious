@@ -4,7 +4,7 @@ public class Drinks {
     private String drinkName;
     private String size;
 
-    public Drinks(String drinkName, String size) {
+    public Drinks() {
         this.drinkName = drinkName;
         this.size = size;
     }

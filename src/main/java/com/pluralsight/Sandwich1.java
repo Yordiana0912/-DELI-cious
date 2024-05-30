@@ -1,50 +1,78 @@
 package com.pluralsight;
 
-// enum Bread {WHITE, WHEAT, RYE, WRAP}
-// enum SandwichSize{SIZE_4_INCH("4 inch", 5.50), SIZE_8_INCH ("8 inch", 7.00), SIZE_12_INCH("12 inch", 8.50);
-  //   private final String sizeDetails;
-   //  SandwichSize(String sizeDetails, double v) {this.sizeDetails = sizeDetails;
-   //  }
-   //  enum Meats {
-    //     STEAK(SIZE_4_INCH , 1.00, SIZE_8_INCH, 2.00, SIZE_12_INCH, 3.00  ),
-//    HAM(SIZE_4_INCH, 1.00, SIZE_8_INCH, 2.00, SIZE_12_INCH , 3.00),
-   //      SALAMI(SIZE_4_INCH, 1.00, SIZE_8_INCH, 2.00, SIZE_12_INCH , 3.00),
-      //   ROAST_BEEF(SIZE_4_INCH, 1.00, SIZE_8_INCH, 2.00, SIZE_12_INCH, 3.00),
-//   CHICKEN(SIZE_4_INCH, 1.00, SIZE_8_INCH, 2.00, SIZE_12_INCH, 3.00),
-      //   BACON(SIZE_4_INCH, 1.00, SIZE_8_INCH, 2.00, SIZE_12_INCH, 3.00);
-//  Meats(SandwichSize size4Inch, double v, SandwichSize size8Inch, double v1, SandwichSize size12Inch, double v2) {
-        // }
-
 import java.util.List;
 public class Sandwich1 {
-          private String Bread;
-          private String Size;
+          private String bread;
+          private String size;
           private List<String> toppings;
           private List<String> sauces;
           private boolean toasted ;
 
-    public Sandwich1(String bread, String size, List<String> toppings, List<String> sauces, boolean toasted) {
-        Bread = bread;
-        Size = size;
+          private double sandwichTotal;
+          private String meatChoice;
+          private boolean extraCheese;
+          private boolean extraMeat;
+
+    public Sandwich1(String bread, String size, List<String> toppings, List<String> sauces, boolean toasted, double sandwichTotal, String meatChoice, boolean extraCheese, boolean extraMeat) {
+        this.bread = bread;
+        this.size = size;
         this.toppings = toppings;
         this.sauces = sauces;
         this.toasted = toasted;
+        this.sandwichTotal = sandwichTotal;
+        this.meatChoice = meatChoice;
+        this.extraCheese = extraCheese;
+        this.extraMeat = extraMeat;
     }
 
+    public boolean isExtraCheese() {
+        return extraCheese;
+    }
+
+    public void setExtraCheese(boolean extraCheese) {
+        this.extraCheese = extraCheese;
+    }
+
+    public boolean isExtraMeat() {
+        return extraMeat;
+    }
+
+    public void setExtraMeat(boolean extraMeat) {
+        this.extraMeat = extraMeat;
+    }
+
+    public String getMeatChoice() {
+        return meatChoice;
+    }
+
+    public void setMeatChoice(String meatChoice) {
+        this.meatChoice = meatChoice;
+    }
+
+    public double getSandwichTotal() {
+        return sandwichTotal;
+    }
+
+    public void setSandwichTotal(double sandwichTotal) {
+        this.sandwichTotal = sandwichTotal;
+    }
+
+
+
     public String getBread() {
-        return Bread;
+        return bread;
     }
 
     public void setBread(String bread) {
-        Bread = bread;
+        bread = bread;
     }
 
     public String getSize() {
-        return Size;
+        return size;
     }
 
     public void setSize(String size) {
-        Size = size;
+        size = size;
     }
 
     public List<String> getToppings() {
@@ -72,7 +100,7 @@ public class Sandwich1 {
     }
     @Override
     public String toString() {
-        return Size + " " + Bread + " sandwich";
+        return size + " " + bread + " sandwich";
 }}
 
 

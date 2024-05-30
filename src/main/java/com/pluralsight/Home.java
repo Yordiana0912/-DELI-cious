@@ -18,6 +18,7 @@ public class Home {
 
         switch (choice) {
             case 1 -> newOrder();
+
             case 2-> {
                 System.out.println("Thank you for stopping by , have a great day");
                 System.exit(2); // to exit the application
@@ -29,5 +30,6 @@ public class Home {
 
     private static void newOrder() {
         System.out.println(" Start New order ....");
+        new OrderScreen();
     }
 }
