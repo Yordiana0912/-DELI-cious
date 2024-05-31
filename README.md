@@ -7,10 +7,20 @@ This application will then create a list of what you have selected for your orde
 Order history will also be kept in track 
 Any Feedback is appricated 
 
-how to use the application
+How to use the application
 --------------------------------
 Start the application a warm welcome to the application and provided with the option to Start the order or exit 
 Start your order and select thing that satify your need
+Bread 
+Sizes
+Topping included or not included 
+Cheese
+Extra Cheese 
+Meat Choice 
+Extra Meat Options 
+Drinks 
+Chips / currently need to add option for chips 
+Also need to completed the buffwriter / buffreader which will allow tracking of order and total at the end of the application 
 
 Plan to complete application 
 -------------------------------------
