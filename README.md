@@ -1,6 +1,7 @@
 Welcome to Yordiana's Deli 
 ----------------------------------------------------------------------------------------
-Features 
+Features
+---------------------------
 Create your own sandwich by selecting from different options of bread , meat , cheese, drinks and chips
 This application will then create a list of what you have selected for your order 
 Order history will also be kept in track 
