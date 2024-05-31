@@ -7,11 +7,13 @@ This application will then create a list of what you have selected for your orde
 Order history will also be kept in track 
 Any Feedback is appricated 
 
------------------how to use the application------------------------------------
+how to use the application
+--------------------------------
 Start the application a warm welcome to the application and provided with the option to Start the order or exit 
 Start your order and select thing that satify your need
 
------------------Plan to complete application ----------------------------------
+Plan to complete application 
+-------------------------------------
 I currently still in the progress of working on my application , still in need to completed my buffreader / buffwriter to keep trask of order 
 I will complete this application by adding the buffreader and buffwriter , missing the following options below 
 // following missing on my project 
